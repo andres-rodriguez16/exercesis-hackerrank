@@ -5,7 +5,7 @@ function aVeryBigSum(ar) {
   for (let i = 1; i < ar.length; i++) {
     count = count +  ar[i];
   }
-  return count
+  return count;
 }
 
 console.log(

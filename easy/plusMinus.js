@@ -15,10 +15,10 @@ function plusMinus(arr) {
       ceros++
     }
   }
-
   function result(num) {
     return num = (num / lenght).toFixed(6)
   }
+  console.log(result(negativos), result(positivos), result(ceros));
 }
 
 let arr = [-4, 3, -9, 0, 4, 1]
